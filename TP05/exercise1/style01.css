@@ -1,0 +1,80 @@
+
+*{
+    margin:auto;
+}
+.wrapper{
+    position: relative;
+    width: 550px;
+    height: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid black;
+    box-shadow: 0 0 40px skyblue;
+    margin-top: 50px;
+}
+.first{
+    padding-bottom: 20px;
+    text-align: center;
+}
+.first .emoji{
+    font-size: 100px;
+}
+.first p {
+    font-size: 30px;
+    padding: 10px;
+}
+.first button {
+    padding: 30px;
+    color: white;
+    background-color: blue;
+    font-family: 'Julee', cursive;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.container{
+    position:absolute;
+    width: 65%;
+    height: 180px;
+    border-radius: 5px;
+    background-color: bisque;
+    right: 15%;
+    left: 15%;
+}
+.loading {
+    margin: auto;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 60px;
+    height:60px;
+    margin-top: 30px;
+    -webkit-animation: spin 3s linear infinite; /* Safari */
+    animation: spin 0.7s linear infinite;
+}
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+#activity-name{
+    margin-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-weight: bolder;
+    font-style: normal;
+}
+i{
+    margin: 8px;
+    width: 10px;
+    height: 10px;
+    font-size: 20px;
+    font-style: normal;
+    color: rgb(105, 105, 105);
+}

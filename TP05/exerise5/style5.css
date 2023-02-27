@@ -1,0 +1,36 @@
+body{
+            display: flex;
+            height: fit-content;
+        }
+        .left{
+            background-color:aliceblue;
+            display: flex;
+            justify-content: center;
+            width: 200px;
+            height: 100%;
+        }
+        .addSession{
+            height: 100vh;
+            margin: 10px 0px;
+        }
+        .inp{
+            margin-bottom: 15px;
+        }
+        #right{
+            margin-left: 5px;
+            background-color:aliceblue;
+            width: 1030px;
+            height:max-content;
+        }
+        .book{
+            width: 200px;
+            height: 330px;
+            background-color: white;
+            padding-top: 25px;
+            margin-left: 5px;
+            margin-top: 5px;
+        }
+        #bookInfo{
+            display: flex;
+            flex-wrap: wrap;
+        }

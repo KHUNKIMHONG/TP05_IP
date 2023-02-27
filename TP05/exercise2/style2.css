@@ -1,0 +1,57 @@
+*{
+    margin: auto;
+}
+.wrapper{
+    width: 550px;
+    height: 500px;
+    margin: auto;
+    background-color: antiquewhite;
+    border: 3px solid black;
+    margin-top: 50px;
+}
+.first{
+    text-align: center;
+}
+.first .emoji{
+    font-size: 100px;
+}
+.input{
+    padding: 15px;
+    margin: 10px;
+}
+#input{
+    width: 190px;
+    height: 30px;
+}
+.input button{
+    width: 60px;
+    height: 35px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+}
+.display{
+    border-radius: 5px;
+    border: 2px solid gainsboro;
+    background-color: whitesmoke;
+    width: 40%;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+    padding: 20px 20px;
+}
+.display #name{
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 10px;
+    
+}
+.display #gender{
+    font-size: 2rem;
+    color: orangered;
+    padding-top: 10px;
+}
+.display #probability{
+    font-size: 30px;
+    color: skyblue;
+    padding-top: 10px;
